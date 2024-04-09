@@ -1,0 +1,63 @@
+.button {
+    border-radius: 12px;
+    background: #7b61ff;
+    color: #fff;
+    
+    transition: transform 0.2s ease-in;
+
+}
+
+.button:hover {
+    background-color: #5735fe;
+    transform: translateY(-3px);
+
+}
+
+.button-search {
+    border-radius: 12px;
+    padding: 18px;
+    width: 60px;
+    height: 60px;
+    
+
+}
+
+.button--huge {
+    padding: 24px;
+    height: 72px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    display: flex;
+    text-align: center;
+    column-gap: 8px;
+
+}
+
+
+/* Buttons more */
+
+.button-more {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+            
+        border-radius: 12px;
+        padding: 10px;
+        background: #f6f4ff;
+        font-size: 16px;
+        color: #5243c2;  
+        transition: background-color 0.2s ease-in;
+
+}
+
+.button-more:hover {
+    background-color: #6558c9a0;
+}
+
+.button--subscribe {
+    border-radius: 12px;
+    padding: 28px;
+    width: 72px;
+    height: 72px;
+}
